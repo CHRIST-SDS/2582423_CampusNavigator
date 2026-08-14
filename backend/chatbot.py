@@ -238,7 +238,10 @@ def build_location_response(query, location_name, location_info, confidence=None
         "success": True,
         "query": query,
         "destination": location_name,
-        "category": category,
+        "category": location_info.get(
+            "category",
+            "Campus Facility"
+        ),
         "building": building,
         "floor": floor,
         "description": description,
@@ -371,8 +374,10 @@ def clarification_response(query, locations):
     }
 
 # PROCESS USER QUERY
+# PROCESS USER QUERY
 def process_query(query):
     global pending_clarification
+
     query = query.strip()
 
     if not query:
@@ -383,19 +388,8 @@ def process_query(query):
 
     query_lower = normalize_text(query)
 
-    # Detect whether this is a completely new question
-    new_question_terms = [
-        "where", "what", "which", "how", "find", "locate",
-        "where is", "where can", "how do i", "tell me"
-    ]
-
-    is_new_question = any(
-        term in query_lower
-        for term in new_question_terms
-    )
-
-    # Use clarification only when the message is an actual option
-    if pending_clarification and not is_new_question:
+    # Check pending clarification first
+    if pending_clarification:
         options = pending_clarification.get("options", [])
 
         for location in options:
@@ -410,11 +404,27 @@ def process_query(query):
                     location["info"]
                 )
 
-    # Always clear old clarification for a new question
+    # Treat navigation-style questions as new queries
+    new_question_terms = [
+        "where",
+        "what",
+        "which",
+        "how",
+        "find",
+        "locate",
+        "tell me",
+        "show me"
+    ]
+
+    is_new_question = any(
+        query_lower.startswith(term)
+        for term in new_question_terms
+    )
+
     if is_new_question:
         pending_clarification = {}
 
-    # Check whether the current query has multiple possible locations
+    # Detect multiple possible locations
     ambiguous = find_ambiguous_locations(query)
 
     if len(ambiguous) > 1:
@@ -423,7 +433,7 @@ def process_query(query):
             ambiguous
         )
 
-    # If exactly one category-specific location exists, use it
+    # Use the only matching location
     if len(ambiguous) == 1:
         location = ambiguous[0]
 
@@ -433,7 +443,7 @@ def process_query(query):
             location["info"]
         )
 
-    # Fall back to semantic search for general campus queries
+    # Use semantic search for general queries
     query_embedding = semantic_model.encode(
         query,
         convert_to_tensor=True
@@ -450,6 +460,7 @@ def process_query(query):
     location_name = location_names[best_index]
     location_info = campus_data[location_name]
 
+    # Reject weak semantic matches
     if confidence < 0.25:
         return {
             "success": False,
