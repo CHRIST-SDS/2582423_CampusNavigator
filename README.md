@@ -1,4 +1,4 @@
-# 🏫 GenAI Powered Smart Campus Navigation Assistant
+## 🏫 GenAI Powered Smart Campus Navigation Assistant
 
 > 🤖 An AI-powered conversational campus navigation assistant for CHRIST University Central Campus, Bengaluru.
 
@@ -6,7 +6,7 @@ The **GenAI Powered Smart Campus Navigation Assistant** helps students, faculty,
 
 ---
 
-# 📌 Problem Statement
+## 📌 Problem Statement
 
 Large university campuses contain multiple academic buildings, departments, administrative offices, libraries, food facilities, sports areas, and other facilities.
 
@@ -28,7 +28,7 @@ Therefore, this project develops an **AI-powered conversational navigation assis
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 The main objectives of the project are:
 
@@ -83,7 +83,7 @@ The main objectives of the project are:
 
 ---
 
-# 🏗️ Architecture Diagram
+## 🏗️ Architecture Diagram
 
 The overall architecture of the system is:
 
@@ -163,7 +163,7 @@ The overall architecture of the system is:
 
 ---
 
-# 🔄 System Workflow
+## 🔄 System Workflow
 
 The complete workflow of the application is:
 
@@ -207,11 +207,11 @@ Check for ambiguity
 
 ---
 
-# 🧠 NLP Pipeline
+## 🧠 NLP Pipeline
 
 The Natural Language Processing pipeline consists of the following stages:
 
-## 1️⃣ Query Input
+### 1️⃣ Query Input
 
 The user enters a natural-language query.
 
@@ -223,7 +223,7 @@ Where can I borrow books?
 
 ---
 
-## 2️⃣ Text Normalization
+### 2️⃣ Text Normalization
 
 The query is converted into a normalized representation.
 
@@ -243,7 +243,7 @@ This improves consistency during matching.
 
 ---
 
-## 3️⃣ Semantic Embedding
+### 3️⃣ Semantic Embedding
 
 The normalized query is converted into a vector representation using:
 
@@ -255,7 +255,7 @@ Campus locations are also converted into vector representations.
 
 ---
 
-## 4️⃣ Similarity Calculation
+### 4️⃣ Similarity Calculation
 
 Cosine similarity is used to compare the query embedding against campus location embeddings.
 
@@ -273,7 +273,7 @@ The location with the strongest semantic match is selected.
 
 ---
 
-## 5️⃣ Ambiguity Detection
+### 5️⃣ Ambiguity Detection
 
 The system checks whether multiple locations could satisfy the query.
 
@@ -287,7 +287,7 @@ If multiple libraries exist, the system asks the user to clarify.
 
 ---
 
-## 6️⃣ Verified Information Retrieval
+### 6️⃣ Verified Information Retrieval
 
 Once the destination is identified, the system retrieves information from:
 
@@ -307,7 +307,7 @@ This contains information such as:
 
 ---
 
-## 7️⃣ Natural Language Generation
+### 7️⃣ Natural Language Generation
 
 The verified information is passed to:
 
@@ -319,7 +319,7 @@ The model generates a natural conversational response.
 
 ---
 
-## 8️⃣ Final Response
+### 8️⃣ Final Response
 
 The backend returns the final response to the React frontend.
 
@@ -327,7 +327,7 @@ The frontend displays the response in the chatbot interface.
 
 ---
 
-# 🤖 AI Models Used
+## 🤖 AI Models Used
 
 ## Sentence Transformer
 
@@ -366,7 +366,7 @@ Used for:
 
 ---
 
-# 🗃️ Campus Data
+## 🗃️ Campus Data
 
 Campus information is stored in:
 
