@@ -376,7 +376,7 @@ backend/campus_data.json
 
 ---
 
-# 🧩 Technology Stack
+## 🧩 Technology Stack
 
 | Layer | Technology |
 |---|---|
@@ -397,7 +397,7 @@ backend/campus_data.json
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 CampusNavigator/
@@ -429,9 +429,9 @@ CampusNavigator/
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## 📋 Prerequisites
+### 📋 Prerequisites
 
 Install the following before running the project:
 
@@ -443,7 +443,7 @@ Install the following before running the project:
 
 ---
 
-# 🔙 Backend Setup
+## 🔙 Backend Setup
 
 Open a terminal and navigate to the backend:
 
@@ -477,7 +477,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the Backend
+## ▶️ Running the Backend
 
 Start the Flask server:
 
@@ -501,7 +501,7 @@ Debugger is active!
 
 ---
 
-# 🎨 Frontend Setup
+## 🎨 Frontend Setup
 
 Open a second terminal.
 
@@ -531,9 +531,9 @@ http://localhost:5173
 
 ---
 
-# 🚀 Application Usage
+## 🚀 Application Usage
 
-## Step 1️⃣
+### Step 1️⃣
 
 Start the backend:
 
@@ -545,7 +545,7 @@ python app.py
 
 ---
 
-## Step 2️⃣
+### Step 2️⃣
 
 Open another terminal and start the frontend:
 
@@ -556,7 +556,7 @@ npm run dev
 
 ---
 
-## Step 3️⃣
+### Step 3️⃣
 
 Open the application in the browser:
 
@@ -566,7 +566,7 @@ http://localhost:5173
 
 ---
 
-## Step 4️⃣
+### Step 4️⃣
 
 Enter a natural-language query.
 
@@ -578,7 +578,7 @@ Where can I borrow books?
 
 ---
 
-## Step 5️⃣
+### Step 5️⃣
 
 The system identifies the relevant location and provides:
 
@@ -591,9 +591,9 @@ The system identifies the relevant location and provides:
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 🖥️ 1. Main Chatbot Interface
+### 🖥️ 1. Main Chatbot Interface
 
 The main interface displays the AI-powered campus navigation chatbot.
 
@@ -605,7 +605,7 @@ The main interface displays the AI-powered campus navigation chatbot.
 
 ---
 
-## 💬 2. Natural Language Query
+### 💬 2. Natural Language Query
 
 The user enters a natural-language campus query.
 
@@ -623,7 +623,7 @@ Where can I borrow books?
 
 ---
 
-## 🤖 3. AI Response
+### 🤖 3. AI Response
 
 The assistant generates a natural-language response containing the relevant campus information.
 
@@ -635,7 +635,7 @@ The assistant generates a natural-language response containing the relevant camp
 
 ---
 
-## ❓ 4. Clarification Response
+### ❓ 4. Clarification Response
 
 When multiple locations match the query, the chatbot asks the user to select the appropriate location.
 
@@ -647,7 +647,7 @@ When multiple locations match the query, the chatbot asks the user to select the
 
 ---
 
-## 🗺️ 5. Route Guidance
+### 🗺️ 5. Route Guidance
 
 The chatbot provides route guidance from the campus entrance to the selected destination.
 
@@ -659,9 +659,9 @@ The chatbot provides route guidance from the campus entrance to the selected des
 
 ---
 
-# 🎥 Demo Video
+## 🎥 Demo Video
 
-A complete demonstration of the project can be added here.
+A complete demonstration of the project.
 
 **Demo Video:**
 
@@ -669,7 +669,7 @@ A complete demonstration of the project can be added here.
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 The current system can be extended with:
 
@@ -693,7 +693,7 @@ The current system can be extended with:
 
 ---
 
-# 🚧 Current Limitations
+## 🚧 Current Limitations
 
 The current prototype has some limitations:
 
@@ -706,13 +706,13 @@ The current prototype has some limitations:
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is developed for academic and educational purposes.
 
 ---
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 This project makes use of open-source technologies and models including:
 
@@ -726,18 +726,4 @@ This project makes use of open-source technologies and models including:
 
 ---
 
-# ⭐ If You Find This Project Useful
-
-If you find this project interesting, consider giving the repository a ⭐ on GitHub!
-
-```text
-🏫 Smart Campus
-        +
-🧠 NLP
-        +
-🤖 Generative AI
-        +
-💬 Conversational Interface
-        =
-🚀 Intelligent Campus Navigation
-```
+### ⭐ If You Find This Project Useful and interesting, consider giving the repository a ⭐ on GitHub!
