@@ -665,13 +665,7 @@ A complete demonstration of the project can be added here.
 
 **Demo Video:**
 
-> 🎬 Add your project demonstration video link here.
-
-Example:
-
-```text
-[▶️ Watch Project Demo]
-```
+> 🎬 
 
 ---
 
