@@ -222,7 +222,7 @@ function App() {
       <main className="main">
         <section className="hero">
           <div className="hero-icon">
-            <Bot size={42} />
+            <Bot size={32} />
           </div>
 
           <h2>Where do you want to go?</h2>
@@ -235,7 +235,7 @@ function App() {
 
         {/* QUICK NAVIGATION */}
 
-        <section className="quick-section">
+        {/* <section className="quick-section">
           <h3>Quick Navigation</h3>
 
           <div className="quick-buttons">
@@ -252,7 +252,7 @@ function App() {
               </button>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* CHAT */}
 

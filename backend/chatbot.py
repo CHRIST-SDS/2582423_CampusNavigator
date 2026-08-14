@@ -226,33 +226,29 @@ def fallback_response(query, location_name, location_info):
     )
 
 def build_location_response(query, location_name, location_info, confidence=None):
-    category = location_info.get("category", "Campus Facility")
+
     building = location_info.get("building", "Central Campus")
-    floor = location_info.get("floor", "Refer to current campus allocation")
+    floor = location_info.get("floor", "Ground Level")
     description = location_info.get("description", "")
     route = location_info.get("route", [])
 
-    ai_response = generate_ai_response(query,location_name,location_info)
+    response = (
+        f"You can find the {location_name} in the {building}, "
+        f"on {floor}. {description}"
+    )
 
-    result = {
+    return {
         "success": True,
         "query": query,
         "destination": location_name,
-        "category": location_info.get(
-            "category",
-            "Campus Facility"
-        ),
         "building": building,
         "floor": floor,
         "description": description,
-        "response": ai_response,
+        "confidence": round(confidence, 3) if confidence is not None else None,
+        "response": response,
         "route": route
     }
 
-    if confidence is not None:
-        result["confidence"] = round(confidence, 3)
-
-    return result
 
 # AMBIGUITY DETECTION
 def find_ambiguous_locations(query):
