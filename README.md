@@ -599,7 +599,7 @@ The main interface displays the AI-powered campus navigation chatbot.
 
 **Screenshot:**
 
-> 📷 Add screenshot here.
+> ![Home Page](screenshots/home_page.png)
 
 <br>
 
@@ -617,7 +617,7 @@ Where can I borrow books?
 
 **Screenshot:**
 
-> 📷 Add screenshot here.
+> 📷 ![Chat Interface](screenshots/chat_interface.png)
 
 <br>
 
@@ -629,7 +629,7 @@ The assistant generates a natural-language response containing the relevant camp
 
 **Screenshot:**
 
-> 📷 Add screenshot here.
+> 📷 ![AI Response](screenshots/route_guidance.png)
 
 <br>
 
@@ -641,31 +641,19 @@ When multiple locations match the query, the chatbot asks the user to select the
 
 **Screenshot:**
 
-> 📷 Add screenshot here.
+> 📷 ![Clarification](screenshots/clarification.png)
 
 <br>
 
 ---
 
-## 🏢 5. Building and Floor Information
-
-The system displays the building and floor associated with the selected campus location.
-
-**Screenshot:**
-
-> 📷 Add screenshot here.
-
-<br>
-
----
-
-## 🗺️ 6. Route Guidance
+## 🗺️ 5. Route Guidance
 
 The chatbot provides route guidance from the campus entrance to the selected destination.
 
 **Screenshot:**
 
-> 📷 Add screenshot here.
+> 📷 ![Route Guidance](screenshots/route_guidance.png)
 
 <br>
 
@@ -682,7 +670,7 @@ A complete demonstration of the project can be added here.
 Example:
 
 ```text
-[▶️ Watch Project Demo](YOUR_VIDEO_LINK_HERE)
+[▶️ Watch Project Demo]
 ```
 
 ---
