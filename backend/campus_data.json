@@ -1,0 +1,572 @@
+{
+  "Main Gate": {
+    "category": "Entrance",
+    "building": "Campus Entrance",
+    "floor": "Ground",
+    "description": "Main entrance of CHRIST University Central Campus on Hosur Road.",
+    "keywords": ["main gate","entrance",
+        "main entrance",
+        "entry gate",
+        "campus entrance",
+        "hosur road gate"
+    ],
+    "route": [
+        "Start at the Main Gate",
+        "Enter the campus",
+        "Proceed towards the required campus block"
+    ]
+},
+
+"Back Gate": {
+    "category": "Entrance",
+    "building": "Campus Boundary",
+    "floor": "Ground",
+    "description": "Secondary campus entrance used for access to the university campus.",
+    "keywords": [
+        "back gate",
+        "secondary gate",
+        "other gate",
+        "exit gate"
+    ],
+    "route": [
+        "Proceed towards the secondary campus entrance",
+        "Near R&D block"
+    ]
+},
+
+"Central Block": {
+    "category": "Academic Building",
+    "building": "Central Block",
+    "floor": "Multiple Floors",
+    "description": "Major academic and administrative building containing main reception, helpdesk, classrooms, departments and offices.",
+    "keywords": [
+        "central block",
+        "central building",
+        "main block",
+        "academic block"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block",
+        "Use the staircase or elevator to reach the required floor"
+    ]
+},
+
+  "Central Library - UG": {
+    "category": "Library",
+    "building": "Block 1",
+    "floor": "Ground",
+    "description": "UG Library facility providing books, reading spaces and study resources for students.",
+    "keywords": [
+        "library",
+        "central library",
+        "block 1 library",
+        "library block 1",
+        "books",
+        "borrow books",
+        "reading",
+        "study",
+        "reading room"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards Block 1",
+        "Near the Block 1 Building"
+    ]
+},
+
+"Central Library - Central Block": {
+    "category": "Library",
+    "building": "Central Block",
+    "floor": "6th Floor",
+    "description": "Library facility in the Central Block providing academic books, reading spaces and study resources.",
+    "keywords": [
+        "library",
+        "central block library",
+        "6th floor library",
+        "central library",
+        "books",
+        "borrow books",
+        "reading",
+        "study",
+        "reading room"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block",
+        "Enter the Central Block",
+        "Take the elevator or staircase to the 6th floor"
+    ]
+},
+
+  "MCA Department": {
+    "category": "Academic Department",
+    "building": "Block 2",
+    "floor": "1St Floor",
+    "description": "Department of computer science is associated with the Master of Computer Applications programme.",
+    "keywords": [
+      "mca",
+      "mca department",
+      "master of computer applications",
+      "computer applications",
+      "mca class"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed to the 2nd block, 1st floor",
+      "Take Left from the staircase"
+    ]
+  },
+  "Gourmet - Central Campus": {
+    "category": "Food Facility",
+    "building": "Central Campus",
+    "floor": "Ground Level",
+    "description": "Campus cafeteria providing meals, snacks, deserts and beverages for students and staff.",
+    "keywords": [
+        "cafeteria",
+        "canteen",
+        "food",
+        "eat",
+        "food court",
+        "lunch",
+        "snacks",
+        "breakfast",
+        "beverages",
+        "hungry", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block Ground floor"    
+      ]
+},
+
+"Kiosk Food Court": {
+    "category": "Food Facility",
+    "building": "Block 2",
+    "floor": "Ground Level",
+    "description": "Kiosk Food court providing multiple food and beverage options for students. It also provides home made breakfast for students and staff",
+    "keywords": [
+        "food court",
+        "food",
+        "eat",
+        "lunch",
+        "snacks",
+        "restaurants",
+        "beverages", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate and move towards Block 2",
+        "Take left before Block 2 Entrance"    ]
+},
+
+"Food Court": {
+    "category": "Food Facility",
+    "building": "Block 4",
+    "floor": "Basement",
+    "description": "Block 4 Food court providing multiple food and beverage options for students.",
+    "keywords": [
+        "food court",
+        "food",
+        "eat",
+        "lunch",
+        "snacks",
+        "restaurants",
+        "beverages", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceed towards Block 4 asthe second last building",
+        "Or enter fromBack gate and proceed towards Block 4",
+        "Go to basement from the door between Block 4 and R&D block"
+    ]
+},
+"Basketball Court": {
+    "category": "Sports Facility",
+    "building": "Central Block",
+    "floor": "Ground Level",
+    "description": "2-3 Outdoor basketball facility available for student sports and recreational activities.",
+    "keywords": [
+        "basketball",
+        "basketball court",
+        "court",
+        "sports",
+        "play basketball",
+        "game"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Opposite to Central Block and Beside Central Block"
+    ]
+},
+
+"Football Ground": {
+    "category": "Sports Facility",
+    "building": "Sports Area",
+    "floor": "Ground Level",
+    "description": "Outdoor football ground used for university sports and student activities.",
+    "keywords": [
+        "football",
+        "football ground",
+        "soccer",
+        "sports",
+        "play football",
+        "ground"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the central block",
+        "Opposite to Garden sitting area"
+    ]
+},
+
+"Volleyball Court": {
+    "category": "Sports Facility",
+    "building": "Sports Area",
+    "floor": "Ground Level",
+    "description": "Volleyball court available for student sports and recreational activities.",
+    "keywords": [
+        "volleyball",
+        "volleyball court",
+        "sports",
+        "play volleyball",
+        "court"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the sports facilities beside central block"    ]
+},
+
+"Badminton Court": {
+    "category": "Sports Facility",
+    "building": "Sports Area",
+    "floor": "R&D Block",
+    "description": "Few indoor facilities used for student sports and recreational activities.",
+    "keywords": [
+        "badminton",
+        "badminton court",
+        "sports",
+        "play badminton",
+        "Indoor games",
+        "indoor","indoor volleyball"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceed towards R&D Block",
+        "Or Enter fromthe back gate and proceed towards R&D block(1st building on left)",
+        "Take elevator or staircase to 6th floor"
+    ]
+},
+
+  "Placement Office": {
+    "category": "Office",
+    "building": "Central Campus",
+    "floor": "Verify current office allocation",
+    "description": "University office responsible for student placement and career-related activities.",
+    "keywords": [
+        "placement",
+        "placements",
+        "placement office",
+        "career",
+        "jobs",
+        "campus placement",
+        "placement cell"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the administrative area",
+        "Follow signs for the Placement Office"
+    ]
+},
+"Admissions Office": {
+    "category": "Office",
+    "building": "Central Campus",
+    "floor": "Ground floor",
+    "description": "University office assisting students and applicants with admission-related queries and processes.",
+    "keywords": [
+        "admission",
+        "admissions",
+        "admission office",
+        "application",
+        "enrollment","office",
+        "joining university"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block",
+        "Take stairs or lift and move towards left from reception "
+    ]
+},
+
+"IT Help Desk": {
+    "category": "Student Service",
+    "building": "Block 1",
+    "floor": "Verify current location",
+    "description": "University support facility assisting students with campus technology and IT-related issues.",
+    "keywords": [
+        "IT",
+        "IT help",
+        "technical support",
+        "computer problem",
+        "wifi problem",
+        "internet problem",
+        "technical issue",
+        "help desk"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the student services area",
+        "Follow signs for the IT Help Desk"
+    ]
+},
+"Health Centre": {
+    "category": "Health Facility",
+    "building": "Campus Health Centre",
+    "floor": "Ground Level",
+    "description": "Campus health facility providing basic medical assistance and student health services.",
+    "keywords": [
+        "health centre",
+        "health center",
+        "medical centre",
+        "medical center",
+        "doctor",
+        "nurse",
+        "first aid",
+        "medical help",
+        "sick",
+        "emergency"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the health facility",
+        "Follow signs for the Health Centre"
+    ]
+},
+
+  "Cafeteria": {
+    "category": "Food Facility",
+    "building": "Central Campus",
+    "floor": "Ground Level",
+    "description": "Campus food facility providing meals, snacks and beverages.",
+    "keywords": [
+      "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed towards the student facilities area",
+      "Follow signs for the cafeteria"
+    ]
+  },
+
+  "Main Auditorium": {
+    "category": "Event Facility",
+    "building": "Auditorium Area",
+    "floor": "Ground Level",
+    "description": "University event and presentation venue.",
+    "keywords": [
+      "auditorium",
+      "main auditorium",
+      "event",
+      "seminar",
+      "conference",
+      "programme",
+      "function"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed towards the auditorium area",
+      "Follow the campus signs for the Main Auditorium"
+    ]
+  },
+
+  "Chapel": {
+    "category": "Campus Facility",
+    "building": "Central Campus",
+    "floor": "Ground Level",
+    "description": "Chapel facility located within the university campus.",
+    "keywords": [
+      "chapel",
+      "prayer",
+      "church",
+      "worship"
+    ],
+    "route": [
+      "Enter the campus through the Main Gate",
+      "Proceed towards the campus chapel",
+      "Follow campus signage"
+    ]
+  },
+
+  "Examination Office": {
+    "category": "Administrative",
+    "building": "Central Campus",
+    "floor": "Refer to current office allocation",
+    "description": "University office associated with examination-related services.",
+    "keywords": [
+      "exam",
+      "examination",
+      "examination office",
+      "results",
+      "hall ticket",
+      "marks",
+      "exams"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed towards the administrative offices",
+      "Follow signage for the Examination Office"
+    ]
+  },
+
+  "Accounts Office": {
+    "category": "Administrative",
+    "building": "Central Campus",
+    "floor": "Refer to current office allocation",
+    "description": "Office handling student and university financial services.",
+    "keywords": [
+      "accounts",
+      "fees",
+      "fee payment",
+      "finance",
+      "payment",
+      "accounts office"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed towards the administrative area",
+      "Follow signs for the Accounts Office"
+    ]
+  },
+
+  "Student Welfare Office": {
+    "category": "Student Services",
+    "building": "Central Campus",
+    "floor": "Refer to current office allocation",
+    "description": "Student support and welfare-related facility.",
+    "keywords": [
+      "student welfare",
+      "student support",
+      "student services",
+      "welfare",
+      "help"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed towards the student services area",
+      "Follow signs for Student Welfare"
+    ]
+  },
+
+  "Parking Area": {
+    "category": "Transport",
+    "building": "Campus Parking",
+    "floor": "Ground Level",
+    "description": "Designated campus parking facility.",
+    "keywords": [
+      "parking",
+      "car parking",
+      "bike parking",
+      "vehicle",
+      "two wheeler",
+      "four wheeler"
+    ],
+    "route": [
+      "Enter the campus through the designated vehicle entrance",
+      "Follow campus security directions",
+      "Proceed to the designated parking area"
+    ]
+  },
+
+  "Computer Lab": {
+    "category": "Academic Facility",
+    "building": "Academic Block",
+    "floor": "Refer to current allocation",
+    "description": "Computer laboratory used for practical academic activities.",
+    "keywords": [
+      "computer lab",
+      "lab",
+      "computer laboratory",
+      "practical",
+      "computers",
+      "coding lab"
+    ],
+    "route": [
+      "Enter through the Main Gate",
+      "Proceed to the relevant academic block",
+      "Follow the signs for the Computer Lab"
+    ]
+  }
+}
