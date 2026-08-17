@@ -102,9 +102,8 @@
     "description": "Major academic and administrative building containing main reception, helpdesk, classrooms, halls, incubation centre, indoor sport facilities, back gate parking, departments and offices.",
     "keywords": ["research block", "R&D block", "research building"],
     "route": [
-        "Enter through the Main Gate",
-        "Proceed towards the Central Block",
-        "Use the staircase or elevator to reach the required floor"
+        "Enter through the Main Gate and proceed towards the end",
+        "Or Enter fromthe back gate and proceed towards R&D block(1st building on left)"
     ]
 },
 
