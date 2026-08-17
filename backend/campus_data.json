@@ -291,8 +291,8 @@
 
   "Placement Office": {
     "category": "Office",
-    "building": "Central Campus",
-    "floor": "Verify current office allocation",
+    "building": "Block 1",
+    "floor": "Ground floor",
     "description": "University office responsible for student placement and career-related activities.",
     "keywords": ["placement", "placements", "placement office", "career", "jobs", "campus placement", "placement cell"],
       "route": [
