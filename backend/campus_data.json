@@ -51,8 +51,107 @@
         "Use the staircase or elevator to reach the required floor"
     ]
 },
+"Audi Block": {
+    "category": "Academic Building",
+    "building": "Audi Block",
+    "floor": "Multiple Floors",
+    "description": "It has different departments of management and different classes, On 3rd floor it has Main Auditorium",
+    "keywords": [
+        "audi block",
+        "auditorium block",
+        "first block",
+        "Main auditorium"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the first building known as audi block"
+    ]
+},
+"Block 1": {
+    "category": "Academic Building",
+    "building": "Block 1",
+    "floor": "Multiple Floors",
+    "description": "One of the major academic and administrative building containing main reception, different offices of Deans, IT office, Mini Auditorium,Student services, and classrooms.",
+    "keywords": [
+        "block 1",
+        "block one",
+        "Deans' offices",
+        "Main auditorium",
+        "IT help",
+        "leave forms",
+        "Blue form","yellow form","pink form","Leave form submission"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block",
+        "You'll find Block 1 to your left"
+    ]
+},
+"Block 2": {
+    "category": "Academic Building",
+    "building": "Block 2",
+    "floor": "Multiple Floors",
+    "description": "One of the major academic building containing classrooms, different labs(MCA, BSC, BCA, Data Science), different departments and printing facilities.",
+    "keywords": [
+        "block 2",
+        "block two",
+        "Globe block"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed straight through the campus and reach Block 2",
+        "No turning"
+    ]
+},
+"Block 4": {
+    "category": "Academic Building",
+    "building": "Block 4",
+    "floor": "Multiple Floors",
+    "description": "Major academic and administrative building containing reception, helpdesk, classrooms, departments and offices.",
+    "keywords": [
+        "block 4",
+        "building near R&D block"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceed straight through the campus to Block 4",
+        "Or enter from Back gate and proceed towards Block 4",
+        "Use the staircase or elevator to reach the required floor"
+    ]
+},
+"Block 3": {
+    "category": "Academic Building",
+    "building": "Block 3",
+    "floor": "Multiple Floors",
+    "description": "Academic building containing different classrooms.",
+    "keywords": [
+        "block 3",
+        "hidden building",
+        "hidden block"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceeed towards block 4","Oppostie toblock 4 procced and take right",
+        "Or enter from Back gate and proceed towards Block 4",
+        "Opposite to block 4 start proceeding and take right"
+    ]
+},
+"R&D Block": {
+    "category": "Academic Building",
+    "building": "R&D Block",
+    "floor": "Multiple Floors",
+    "description": "Major academic and administrative building containing main reception, helpdesk, classrooms, halls, incubation centre, indoor sport facilities, back gate parking, departments and offices.",
+    "keywords": [
+        "research block",
+        "R&D block",
+        "researchbuilding"
+    ],
+    "route": [
+        "Enter through the Main Gate",
+        "Proceed towards the Central Block",
+        "Use the staircase or elevator to reach the required floor"
+    ]
+},
 
-  "Central Library - UG": {
+  "UG Level": {
     "category": "Library",
     "building": "Block 1",
     "floor": "Ground",
@@ -75,7 +174,7 @@
     ]
 },
 
-"Central Library - Central Block": {
+"Central Block Library": {
     "category": "Library",
     "building": "Central Block",
     "floor": "6th Floor",
@@ -117,9 +216,9 @@
       "Take Left from the staircase"
     ]
   },
-  "Gourmet - Central Campus": {
+  "Central Block Food(Gourmet)": {
     "category": "Food Facility",
-    "building": "Central Campus",
+    "building": "Central Block",
     "floor": "Ground Level",
     "description": "Campus cafeteria providing meals, snacks, deserts and beverages for students and staff.",
     "keywords": [
@@ -159,7 +258,7 @@
       ]
 },
 
-"Kiosk Food Court": {
+"Block 2 Food Court(Kiosk)": {
     "category": "Food Facility",
     "building": "Block 2",
     "floor": "Ground Level",
@@ -197,7 +296,122 @@
         "Take left before Block 2 Entrance"    ]
 },
 
-"Food Court": {
+"Audi Block Food Court": {
+    "category": "Food Facility",
+    "building": "Main Audi Block",
+    "floor": "Basement",
+    "description": "This Food court providing multiple food and beverage options for students.",
+    "keywords": [
+        "food court",
+        "food",
+        "eat",
+        "lunch",
+        "snacks",
+        "restaurants",
+        "beverages", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceed towards the first building",
+        "Enter the building and take stairs tothe basement area where canteen is located"
+    ]
+},
+"Birds' Park Canteen": {
+    "category": "Food Facility",
+    "building": "Birds' Park",
+    "floor": "Ground",
+    "description": "This Food court providing multiple food and beverage options for students.",
+    "keywords": [
+        "food court",
+        "food",
+        "eat",
+        "lunch",
+        "snacks",
+        "restaurants",
+        "beverages", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate and proceed towards Block 4 as the second last building",
+        "Or enter from Back gate and proceed towards Block 4",
+        "The canteen will be opposite to Block 4 building"
+    ]
+},
+"Main gate Food Court": {
+    "category": "Food Facility",
+    "building": "Near Audi Block",
+    "floor": "Ground",
+    "description": "This Food court providing multiple food and beverage options for students.",
+    "keywords": [
+        "food court",
+        "food",
+        "eat",
+        "lunch",
+        "snacks",
+        "restaurants",
+        "beverages", "cafeteria",
+      "canteen",
+      "food",
+      "lunch",
+      "snacks",
+      "coffee",
+      "eat",
+      "eating",
+      "eat food",
+      "food court",
+      "dining",
+      "dining area",
+      "meal",
+      "meals",
+      "hungry",
+      "breakfast",
+      "dinner",
+      "where can I eat",
+      "where to eat",
+      "food place"
+    ],
+    "route": [
+        "Enter through the Main Gate and take left and start proceeding.",
+        "You'll find the food court on your left"
+    ]
+},
+"Block 4 Food Court": {
     "category": "Food Facility",
     "building": "Block 4",
     "floor": "Basement",
