@@ -1,0 +1,7 @@
+Install the following before running the project:
+
+    🐍 Python 3.10 or higher
+    🟢 Node.js
+    📦 npm
+    🐙 Git
+    💻 Visual Studio Code
