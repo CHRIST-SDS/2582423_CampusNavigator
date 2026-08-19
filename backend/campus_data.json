@@ -339,7 +339,7 @@
 },
   "Main Auditorium": {
     "category": "Event Facility",
-    "building": "Central Block",
+    "building": "Audi Block",
     "floor": "3rd floor",
     "description": "University event and presentation venue.",
     "keywords": ["auditorium", "main auditorium", "event", "seminar", "conference", "programme", "function"],
