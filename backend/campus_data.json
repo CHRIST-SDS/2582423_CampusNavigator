@@ -26,8 +26,8 @@
 
 "Central Block": {
     "category": "Academic Building",
-    "building": "Central Block",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "Central building",
     "description": "Major academic and administrative building containing main reception, helpdesk, classrooms, departments and offices.",
     "keywords": ["central block", "central building", "main block", "academic block"],
     "route": [
@@ -38,8 +38,8 @@
 },
 "Audi Block": {
     "category": "Academic Building",
-    "building": "Audi Block",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "1st building",
     "description": "It has different departments of management and different classes, On 3rd floor it has Main Auditorium",
     "keywords": ["audi block", "auditorium block", "first block", "Main auditorium"],
     "route": [
@@ -49,8 +49,8 @@
 },
 "Block 1": {
     "category": "Academic Building",
-    "building": "Block 1",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "Opposite Central campus",
     "description": "One of the major academic and administrative building containing main reception, different offices of Deans, IT office, Mini Auditorium,Student services, and classrooms.",
     "keywords": ["block 1", "block one", "Deans' offices", "Main auditorium", "IT help", "leave forms", "Blue form","yellow form","pink form","Leave form submission"],
     "route": [
@@ -61,8 +61,8 @@
 },
 "Block 2": {
     "category": "Academic Building",
-    "building": "Block 2",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "Ground floor",
     "description": "One of the major academic building containing classrooms, different labs(MCA, BSC, BCA, Data Science), different departments and printing facilities.",
     "keywords": ["block 2", "block two", "Globe block"],
     "route": [
@@ -73,8 +73,8 @@
 },
 "Block 4": {
     "category": "Academic Building",
-    "building": "Block 4",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "2nd last building",
     "description": "Major academic and administrative building containing reception, helpdesk, classrooms, departments and offices.",
     "keywords": ["block 4", "building near R&D block"],
     "route": [
@@ -85,8 +85,8 @@
 },
 "Block 3": {
     "category": "Academic Building",
-    "building": "Block 3",
-    "floor": "Multiple Floors",
+    "building": "Central Campus",
+    "floor": "near birds' park",
     "description": "Academic building containing different classrooms.",
     "keywords": ["block 3", "hidden building", "hidden block"],
     "route": [
@@ -97,8 +97,8 @@
 },
 "R&D Block": {
     "category": "Academic Building",
-    "building": "R&D Block",
-    "floor": "Multiple Floors",
+    "building": "Central Block",
+    "floor": "Last building",
     "description": "Major academic and administrative building containing main reception, helpdesk, classrooms, halls, incubation centre, indoor sport facilities, back gate parking, departments and offices.",
     "keywords": ["research block", "R&D block", "research building"],
     "route": [
@@ -107,7 +107,7 @@
     ]
 },
 
-  "UG Level": {
+  "UG library": {
     "category": "Library",
     "building": "Block 1",
     "floor": "Ground",
