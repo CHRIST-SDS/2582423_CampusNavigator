@@ -407,7 +407,6 @@ CampusNavigator/
 │   ├── chatbot.py
 │   ├── campus_data.json
 │   ├── requirements.txt
-│   └── venv/
 │
 ├── frontend/
 │   ├── public/
@@ -420,10 +419,7 @@ CampusNavigator/
 │   ├── package-lock.json
 │   └── vite.config.js
 │
-├── data/
-│
 ├── .gitignore
-│
 └── README.md
 ```
 
